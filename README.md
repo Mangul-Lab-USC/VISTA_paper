@@ -1,2 +1,2 @@
 # SVPred
-github repo for SVPred with all code and figures
+github repo for VISTA with all code and figures
