@@ -1,2 +1,2 @@
-# VISTA_paper
-The following repository contains code and figures presented in our paper: "VISTA: An integrated framework for structural variant discovery"
+# SVPred
+github repo for SVPred with all code and figures

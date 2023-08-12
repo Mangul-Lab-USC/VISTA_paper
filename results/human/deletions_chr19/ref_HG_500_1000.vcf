@@ -1,0 +1,11 @@
+##fileformat=VCFv4.2
+##source=LUMPY
+##INFO=<ID=SVTYPE,Number=1,Type=String,Description="Type of structural variant detected">
+##INFO=<ID=SVLEN,Number=1,Type=Integer,Description="Length of structural variant">
+##INFO=<ID=END,Number=1,Type=Integer,Description="End position of structural variant">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+19	4884873	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=565;END=4885438
+19	24573555	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=677;END=24574232
+19	54810770	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=721;END=54811491
+19	54856213	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=567;END=54856780
+19	57474905	.	.	<DEL>	.	PASS	SVTYPE=DEL;SVLEN=704;END=57475609
