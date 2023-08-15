@@ -23,7 +23,7 @@ for line in BED_input.readlines():
         end = line[2]
         length = abs(int(start)-int(end))
 
-        vcf_line = "19" + "\t" + start + "\t.\t.\t" + "<DEL>" + "\t.\tPASS\tSVTYPE=DEL" + ";SVLEN=" + str(length) + ";END=" + str(end) + "\n"
+        vcf_line = chromosome + "\t" + start + "\t.\t.\t" + "<INS>" + "\t.\tPASS\tSVTYPE=DEL" + ";SVLEN=" + str(length) + ";END=" + str(end) + "\n"
         VCF_output.write(vcf_line)
 
 BED_input.close()

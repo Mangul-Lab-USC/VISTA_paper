@@ -1,2 +1,3 @@
-# SVPred
-github repo for VISTA with all code and figures
+# VISTA
+
+Github Repo for VISTA with data, figure, script codes
