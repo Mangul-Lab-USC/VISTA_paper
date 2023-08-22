@@ -4,4 +4,4 @@ zcat HG002_SVs_Tier1_v0.6.vcf.gz | grep -v ^# | grep "SVTYPE=DEL" | grep -v "^X"
 
 bedtools intersect -wa -u -f 1 -a truth.bed -b HG002_SVs_Tier1_v0.6.bed > truth_highConf.bed
 
-# For insertions, just filtered SVTYPE=INS using .py script
+# For insertions, filtered SVTYPE=INS using .py script: No post filtering process for insertions
