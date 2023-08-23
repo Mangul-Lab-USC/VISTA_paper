@@ -12,7 +12,7 @@ data folder includes instructions on how to download bam/fasta files used to com
 
 ## results
 
-results includes all the individual caller VCF files, VCFs for each human and mouse, and the CSV files that has all the numbers for the figures
+results includes all the individual caller VCF files, VISTA VCFs for each human and mouse, and the CSV files that has all the numbers for the figures
 
 ## scripts
 
